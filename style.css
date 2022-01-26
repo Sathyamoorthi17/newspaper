@@ -1,0 +1,39 @@
+.date{
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.line{
+    border-top-style: solid ;
+    border-radius: 2px;
+    margin: 5px 50px;
+}
+.line-heading{
+    margin: 0 50px;
+}
+.News-heading h1{
+    font-size: 90px !important;
+    margin: 0 50px;
+    display: flex;
+    justify-content: center;
+}
+.day-1{
+    background-color: #67171E;
+    color: #fff;
+    padding: 3px 0 3px 10px ;
+    clip-path: polygon(0 0, 88% 1%, 100% 100%, 0% 100%);
+    width: 100px;
+    height: 30px;
+
+}
+.container{
+    margin-left: 50px !important;
+    margin-right: 50px !important;
+}
+#image-1{
+    height: auto;
+    margin-left: 10px;
+
+}
