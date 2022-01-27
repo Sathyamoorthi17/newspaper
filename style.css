@@ -16,6 +16,7 @@
 .News-heading h1{
     font-size: 90px !important;
     margin: 0 50px;
+    letter-spacing: 3px;
     display: flex;
     justify-content: center;
 }
@@ -32,8 +33,79 @@
     margin-left: 50px !important;
     margin-right: 50px !important;
 }
+
+.part-2{
+    margin-top: 30px;
+}
+
+.day-2{
+    background-color: #67171E;
+    color: #fff;
+    padding: 3px 0 3px 10px ;
+    clip-path: polygon(0 0, 88% 1%, 100% 100%, 0% 100%);
+    width: 100px;
+    height: 30px;
+    margin-bottom: -15px;
+    margin-left: -65.4px;
+}
+.redtext{
+    text-align: center;
+    color: #67171E;
+    font-weight: bold;
+    letter-spacing: 0.8px;
+    margin-top: 15px;
+    font-size: 22px;
+    line-height: 0.7cm;
+    
+}
+.para-line{
+    border-top-style: solid ;
+    border-radius: 2px;
+    margin-top: 30px;
+}
+.line-bottom{
+    border-top-style: solid ;
+    border-radius: 2px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.date-bottom{
+    margin-top: 5px;
+    margin-left: 50px;
+    margin-right: 50px;
+    display: flex;
+    justify-content: space-between;
+}
 #image-1{
     height: auto;
     margin-left: 10px;
-
 }
+#image-2{
+    width: 100%;
+}
+#flex{
+    margin: 10px 50px;
+}
+@media (max-width :720px){
+    #image-1{
+        width: 100%;
+    }
+}
+@media (min-width :720px) {
+    #flex{
+        margin: 10px 50px;
+        display: flex;
+        justify-content: center;
+    }
+}
+
+/* #part-21{
+    background-color: red;
+}
+#part-22{
+    background-color: greenyellow;
+}
+#part-23{
+    background-color: blueviolet;
+} */
